@@ -4,7 +4,7 @@
 
   <property name="version" value="0-SNAPSHOT"/>
   <property name="version2" value="1.6.1"/>
-  <groupId>test-prueba</groupId>
+  <name>test-prueba</name>
 
     <target name="show">
         <echo msg= "version: ${version}"/>
