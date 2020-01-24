@@ -2,8 +2,9 @@
 <project name="dummy" default="default">
 
 
-    <property name="version" value="0-SNAPSHOT"/>
+  <property name="version" value="0-SNAPSHOT"/>
   <property name="version2" value="1.6.1"/>
+  <prueba>test-prueba</prueba>
 
     <target name="show">
         <echo msg= "version: ${version}"/>
