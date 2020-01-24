@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="dummy" default="default">
+
+
+    <property name="version" value="0-SNAPSHOT"/>
+  <property name="version2" value="1.6.1"/>
+
+    <target name="show">
+        <echo msg= "version: ${version}"/>
+      <echo msg= "version2: ${version2}"/>
+    </target>
+  
+  <target name="default">
+    <echo msg="default necesary"/>
+  </target>
+
+</project>
